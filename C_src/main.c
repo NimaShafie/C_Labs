@@ -1,9 +1,8 @@
 // Nima Shafie
 #include "Bankers_Algorithm.h"
 #include "Lab_Disk_Scheduling.h"
-//#include "Stack_Warehouse.h"
-//#include "Recursion.h"
-//#include <iostream>
+#include "Batch-Process-Scheduling.h"
+#include "Memory_Allocation.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -16,8 +15,8 @@ int main()
 		printf("\nPlease select a lab to interact with\n"
 			"\n1. Banker's Algorithm"
 			"\n2. Disk Scheduling"
-			"\n3. .."
-			"\n4. .."
+			"\n3. Batch Process Scheduling"
+			"\n4. Memory Allocation"
 			"\n5. Exit program\n\n");
 		scanf("%d", &choice);
 		switch (choice) {
@@ -28,10 +27,10 @@ int main()
 			diskSchedulingMain();
 			break;
 		case 3:
-			//stackWarehouseMain();
+			batchProcessMain();
 			break;
 		case 4:
-			//recursionMain();
+			memoryAllocationMain();
 			break;
 		case 5:
 			printf("\nQuitting program.\n");

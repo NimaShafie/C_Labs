@@ -333,7 +333,7 @@ void BankerAlgo() {
 // option #3
 // Quit program and free memory
 /********************************************************************/
-void FreeMemoryQuitProgram() {
+void FreeBatchMemoryQuitProgram() {
 	/* check if vectors/array are not NULL--if so, free each vector/array */
 	if (vector != NULL) {
 		free(vector);
@@ -393,7 +393,7 @@ int bankersMain() {
 			BankerAlgo();
 			break;
 		case QUIT:
-			FreeMemoryQuitProgram();
+			FreeBatchMemoryQuitProgram();
 			break;
 		case INVALID:
 			printf("Invalid selection made, try again.\n\n");

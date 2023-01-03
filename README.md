@@ -30,3 +30,6 @@ Schedule processes with FIFO algorithm
 Schedule processes with SJF algorithm (non-preemptive)
 Schedule processes with SRT algorithm (preemptive version of SJF)
 Quit program and free memory
+
+## 4. Memory Allocation 
+To simulate memory allocation with hole-fitting algorithms (First-fit, Best-fit)

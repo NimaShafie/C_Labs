@@ -51,12 +51,11 @@ Module.symvers
 Mkfile.old
 dkms.conf
 /.vs/C_Labs
-/C_Labs.vcxproj.user
-/C_Labs.vcxproj.filters
-/C_Labs.vcxproj
-/C_Labs.sln
 /x64/Debug
 /.vs
 /C_src/x64/Debug
 /C_src/.vs/C_Labs
 /C_src/C_Labs.vcxproj.user
+/C_src/C_Labs.vcxproj.filters
+/C_src/C_Labs.vcxproj
+/C_src/C_Labs.sln

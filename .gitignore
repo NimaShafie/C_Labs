@@ -56,3 +56,7 @@ dkms.conf
 /C_Labs.vcxproj
 /C_Labs.sln
 /x64/Debug
+/.vs
+/C_src/x64/Debug
+/C_src/.vs/C_Labs
+/C_src/C_Labs.vcxproj.user

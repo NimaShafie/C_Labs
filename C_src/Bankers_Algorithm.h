@@ -1,4 +1,5 @@
 // Nima Shafie 4/8/2022
+// Implementation of resource allocationand demonstrating deadlock avoidance using the Banker's algorithm
 #pragma once
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>

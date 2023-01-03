@@ -14,10 +14,10 @@ int main()
 	printf("Initiating Lab Projects Now\n\n");
 	while (choice != 5) {
 		printf("\nPlease select a lab to interact with\n"
-			"\n1. Inventory Management"
-			"\n2. Hot Potato (Linked Lists)"
-			"\n3. Stack Warehouse (Stack DS)"
-			"\n4. Recursion"
+			"\n1. Banker's Algorithm"
+			"\n2. .."
+			"\n3. .."
+			"\n4. .."
 			"\n5. Exit program\n\n");
 		scanf("%d", &choice);
 		switch (choice) {

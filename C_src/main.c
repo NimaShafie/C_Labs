@@ -1,6 +1,6 @@
 // Nima Shafie
 #include "Bankers_Algorithm.h"
-//#include "Hot_Potato.h"
+#include "Lab_Disk_Scheduling.h"
 //#include "Stack_Warehouse.h"
 //#include "Recursion.h"
 //#include <iostream>
@@ -15,7 +15,7 @@ int main()
 	while (choice != 5) {
 		printf("\nPlease select a lab to interact with\n"
 			"\n1. Banker's Algorithm"
-			"\n2. .."
+			"\n2. Disk Scheduling"
 			"\n3. .."
 			"\n4. .."
 			"\n5. Exit program\n\n");
@@ -25,7 +25,7 @@ int main()
 			bankersMain();
 			break;
 		case 2:
-			//hotPotatoMain();
+			diskSchedulingMain();
 			break;
 		case 3:
 			//stackWarehouseMain();

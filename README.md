@@ -1,6 +1,6 @@
 # C_Labs
 
-# 1. Comp322-Lab-3 (Banker's Algorithm)
+### 1. Comp322-Lab-3 (Banker's Algorithm)
 
 Objective:
 To implement resource allocation and demonstrate deadlock avoidance using the Banker's 
